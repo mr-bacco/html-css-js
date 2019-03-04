@@ -1,0 +1,18 @@
+instructions
+
+Just unzip the file and place the content into a folder
+everything is in the main root, thanks.
+
+comments to the files:
+
+I used many few div, cause I thought to better give a structure to the website for 2 reasons:
+[1] want to follow object oriented coding
+[2] if somebody [not for this but for some other work in the future] wants to get the hands on it, it might be more fluent and easy to read in this way
+
+style1.css is the external css file for style
+
+I tried to make it more user friendly as possible by using clean design, and format and there is not much on the html that needs to be commented
+I tried to use html5 as base
+
+thanks
+andrea

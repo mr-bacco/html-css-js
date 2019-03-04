@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bicycles </title>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body style="background-color:powderblue;">
+    <div id="container">
+
+        <div id="header">
+          <h1 style="color:blue"> MRBACCO BIKES</h1>
+
+          <div class="menu">
+            <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+            li {
+                float: right;
+            }
+            li a {
+                padding: 8px;
+            }
+            </style>
+            <ul>
+              <li><a href="blog.html">Community</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="make.html">Make your own</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="index1.html">Home</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="content1">
+          <h2 style="color:red;">Products</h2>
+          <style>
+          .grid-cont {
+            display: grid;
+            grid-template: auto / auto auto;
+            grid-gap: 5px;
+            background-color: powderblue;
+            padding: 10px;
+          }
+          .grid-cont>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding:20px 0;
+            font-size: 30px;
+          }
+          </style>
+
+            <div class="grid-cont">
+              <img src="bike.jpg" style="width:25%">
+              <figcaption > Virginia <a href="products.html">Specs</a>
+              </figcaption>
+            </div>
+            <div class="grid-cont">
+              <img src="bike1.jpg" style="width:25%">
+              <figcaption> Racer <a href="products.html">Specs</a>
+              </figcaption>
+            </div>
+            <div class="grid-cont">
+              <img src="bike2.jpg" style="width:25%">
+              <figcaption> Mountain <a href="products.html">Specs</a>
+              </figcaption>
+            </div>
+            <div class="grid-cont">
+              <img src="bike3.jpg" style="width:25%">
+              <figcaption> Urban <a href="products.html">Specs</a>
+              </figcaption>
+            </div>
+
+            <form class="search">
+              <input type="text" placeholder="Search ..." name="search">
+              <button type="submit"><i class="search"></i></button>
+            </form>
+
+          </div>
+
+      <div id="footer">
+        Copyright &copy; mrbacco 2018
+      </div>
+
+    </div>
+
+  </body>
+</html>

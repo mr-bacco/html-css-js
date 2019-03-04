@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bicycles </title>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+  </head>
+
+  <body style="background-color:powderblue;">
+    <div id="container">
+
+        <div id="header">
+          <h1 style="color:blue"> MRBACCO BIKES</h1>
+
+          <div class="menu">
+            <style>
+            ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+            li {
+                float: right;
+            }
+            li a {
+                padding: 8px;
+            }
+            </style>
+            <ul>
+              <li><a href="blog.html">Community</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+              <li><a href="make.html">Make your own</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="index1.html">Home</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="content">
+
+            <h2 style="color:#000FFF;">Contact Us</h2>
+
+            <form class="input" action="contactus.html" method="post">
+              First name: <input type="text" name="fname" required><br>
+              Surname: <input type="text" surname="sname" required><br>
+              email: <input type="email" email="email" required><br>
+              Phone number: <input type="number" minlength="6" phone="phone"><br>
+              Address 1: <input type="text" address="address"><br>
+              Address 2: <input type="text" address="address"><br>
+              ZIP code: <input type="text" minlength="5" maxlength="10" ZIP="ZIP Code"><br>
+              <input type="radio" name="gender" value="female">Female
+              <input type="radio" name="gender" value="male">Male
+              <input type="radio" name="gender" value="Prefer not to say">Prefer not to say
+              <br>
+              Country/Region:
+              <select name="Country/Region">
+                <option value="Ireland">Ireland</option>
+                <option value="Europe">EU</option>
+                <option value="Outside EU">Non EU</option>
+                <option value="Asia">Asia</option>
+                <option value="NA">North America</option>
+                <option value="LATAM">Latin America</option>
+              </select>
+              <br><br>
+              Message: <textarea name="comment" rows="15" cols="30" required></textarea>
+              <br><br>
+              <input type="image" src="submit.gif" width="50" height="50">
+            </form>
+
+
+        </div>
+
+      <div id="footer">
+        Copyright &copy; mrbacco 2018
+      </div>
+
+    </div>
+
+
+
+
+  </body>
+</html>

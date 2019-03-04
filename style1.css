@@ -1,0 +1,210 @@
+
+html,
+body {
+  align-items: center;
+}
+
+#header {
+  background-color: #CABEBE;
+  background-image: url("swirl_pattern.png");
+  color: #CABEBE;
+  text-decoration-style: double;
+  text-align: center;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#container{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  background-image: url("swirl_pattern.png");
+}
+
+#content{
+  font-family: sans-serif;
+  text-align: center;
+  float: center;
+}
+#content1{
+  font-family: sans-serif;
+  text-align: left;
+}
+
+
+.menu {
+    display: block;
+    padding: 10px;
+    background-color: #73FFD2;
+}
+
+
+#specsl {
+  display: block;
+  width: auto;
+  text-align: left;
+  color: black;
+  float: left;
+  font-family: sans-serif;
+  font-style: italic;
+  list-style-type: none;
+}
+
+#specsr{
+  display: block;
+  width: 400px;
+  text-align: right;
+  color: black;
+  float: right;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+
+#home {
+  width: 800px;
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%;
+  color: black;
+  float: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+#main1 {
+  width: 400px;
+/*  background-image:url("bike.jpg");*/
+  background-repeat: no-repeat, repeat;
+  background-size: 110% 110%;
+  color: black;
+  float: right;
+  font-family: sans-serif;
+}
+
+#main2 {
+  width:1000px;
+
+  background-repeat: no-repeat, repeat;
+  background-size: 110% 110%;
+  color: black;
+  float: left;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+@media only screen and (max-width: auto){
+    #main2 { width: 100%; }
+}
+@media only screen and (max-width: auto){
+    #content { width: 100%; }
+}
+
+
+@media only screen and (max-width: auto){
+    #specsl { width: 100%; }
+}
+
+@media only screen and (max-width: auto){
+    #specsr { width: 100%; }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+#forum {
+  float: left;
+  width: 25%;
+  padding: 4px;
+}
+
+
+#contactus {
+  width: 800px;
+/*  background-image:url("cycle.png");*/
+  background-repeat: no-repeat, repeat;
+  background-size:auto;
+  color: blue;
+  float: right;
+  font-family: sans-serif;
+}
+
+.Product-col {
+  float: right;
+  width: 25%;
+  padding: 32px;
+}
+.Product-col1 {
+  float: left;
+  width: 25%;
+  padding: 32px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Spare-col {
+  float: right;
+  width: 8%;
+  padding: 25px;
+
+}
+
+.Spare-col1 {
+  float: right;
+  width: 8%;
+  padding: 25px;
+
+}
+/* Clear after image containers */
+.sparerow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+#footer{
+  clear: both;
+  text-align: center;
+  background-color: gray;
+
+}
+
+
+}
+
+#gmap {
+width: auto;
+position: relative;
+margin:0 auto;
+line-height: 1.4em;
+}
+
+@media only screen and (max-width: auto){
+    #gmap { width: 100%; }
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
